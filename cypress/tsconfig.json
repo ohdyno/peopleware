@@ -1,5 +1,4 @@
 {
-  "extends": "../tsconfig.json",
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -10,6 +9,10 @@
       "cypress",
       "@testing-library/cypress",
       "node"
-    ]
+    ],
+    "jsx": "preserve",
+    "paths": {
+      "@/*": ["../src/*"]
+    }
   }
 }

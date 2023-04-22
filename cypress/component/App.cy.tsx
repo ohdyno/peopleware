@@ -1,5 +1,4 @@
-import App, {createAction} from '@/components/App';
-import {defaultInitialState} from "../../src/components/App";
+import App, {createAction, defaultInitialState} from '@/components/App';
 import {Reducer} from "react";
 
 describe('Simplify UI into two responsibilities using reducers', () => {
